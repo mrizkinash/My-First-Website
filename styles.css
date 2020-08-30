@@ -29,18 +29,6 @@ p {
     align-items: center;
 }
 
-/*#home {
-    display: none;
-}*/
-
-#intro {
-    display: none;
-}
-
-#about {
-    display: none;
-}
-
 .nav {
     padding-top: 100px;
 }
