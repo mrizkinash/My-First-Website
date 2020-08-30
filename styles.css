@@ -29,17 +29,17 @@ p {
     align-items: center;
 }
 
-#home {
+/*#home {
     display: none;
-}
+}*/
 
 #intro {
     display: none;
 }
 
-/*#about {
+#about {
     display: none;
-}*/
+}
 
 .nav {
     padding-top: 100px;
