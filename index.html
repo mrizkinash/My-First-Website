@@ -7,15 +7,55 @@
     </head>
     <body>
 
-        <h1>My First Website</h1>
-
-        <div class="profpic">
-            <img src="images/13518052.jpg" alt="Foto memakai jahim">
-        </div>
-        
+        <div class="content" id="home">
+            <header>
+                <h1>My First Website</h1>
+            </header>
+            <div class="profpic">
+                <img src="images/13518052.jpg" alt="Foto memakai jahim">
+            </div>
             <p>Muhamad Rizki Nasharudin</p>
             <p>13518052</p>
             <p>Teknik Informatika</p>
+        </div>
+
+        <div class="content" id="intro">
+            <header>
+                <h1>Introduction</h1>
+            </header>
+            <p>Nama     : Muhamad Rizki Nasharudin</p>
+            <p>Lahir    : 26 April 2000</p>
+            <br>
+            <p>Hello, perkenalkan nama saya Muhamad Rizki Nasharudin. Saya biasa di panggil Rizki.
+                Saya adalah mahasiswa Teknik Informatika Institut Teknologi Bandung. Hobi saya adalah bermain <i>game</i></p>
+        </div>
+        
+        <div class="content" id="about">
+            <header>
+                <h1>About</h1>
+            </header>
+            <p>Website ini dibuat oleh Muhamad Rizki Nasharudin, dalam rangka memenuhi tugas 
+            My First Website pada mata kuliah Pengembangan Aplikasi Berbasis Web.</p>
+            <p>Website ini dibuat dengan pengetahuan dasar HTML, CSS, dan JavaScript.
+                Oleh karena itu kami memohon maaf atas kekurangan yang dimiliki website ini.</p>
+            <img src="images/Penyemangat saya.gif" title="Penyemangat saya" alt="Penyemangat saya" usemap="#thanos" id="kiriko">
+            <map name="thanos">
+                <area shape="rect" coords="375,6,420,54" alt="skip" onclick="delet()">
+            </map>
+        </div>
+
+        <div class="nav">
+            <ul>
+                <li><a href="#!" class="active">Home</a></li>
+                <li><a href="#!">Intro</a></li>
+                <li><a href="#!">About</a></li>
+            </ul>
+        </div>
 
     </body>
+    <script>
+        function delet() {
+            document.getElementById("kiriko").style.display = "none";
+        }
+    </script>
 </html>
